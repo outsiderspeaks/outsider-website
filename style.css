@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Space+Mono:wght@400;700&family=Coda+Caption:wght@800&display=swap');
+body{
+    display: flex;
+    margin: 0px;
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background-color: blanchedalmond; */
+    color: #333;
+}
+
+.container{
+    display: flex;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(/images/bg2.png);
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+    image-rendering: pixelated;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.text-shadow {
+    text-shadow:
+    -2px -2px white,
+    -2px 2px white,
+    2px -2px white,
+    2px 2px white;
+}
+
+.underline {
+    background-size: 1px 1em;
+    box-shadow:
+    inset 3vmin -0.9vmin white,
+    inset -21vmin 0 white,
+    inset 0 -1.2vmin #000;
+    display: inline;
+}
+
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    text-decoration: none;
+    opacity: 0.5;
+    color:black;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 56.33vmin;
+    height: 100vh;
+    justify-content: end;
+    align-items: flex-end;
+    padding-left: 4.7vmin;
+
+}
+
+.fixedbottom{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    font-size: 24px;
+    font-size: 6vmin;
+    text-align: left;
+    text-decoration: none;
+    background-color:white;
+    height: 61.2%;
+    width: 100%;
+    margin-bottom: 5vmin;
+    margin-left: 6.33vmin;
+    padding-left: 5vmin;
+    padding-top: 0vmin;
+    padding-bottom: 0vmin;
+}
+
+#title{
+    height: 100%;
+    width: 14vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: black;
+    margin-bottom: -3.5vmin;
+}
+
+
+.rotate {
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.main{
+    background-color:white;
+    flex: 1;
+    margin-left: 66.33vmin;
+    margin-bottom: 5vmin;
+    margin-right: 5vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: calc(8px + 3.5vmin);
+    text-align: left;
+    position: relative;
+    height: calc(61.2% - 4vmin);
+    width: calc(100% - 75vmin);
+    padding: 2vmin;
+    overflow-x: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.sub{
+    background-color:white;
+    flex: 1;
+    margin-left: 66.33vmin;
+    margin-bottom: 5vmin;
+    margin-right: 5vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: calc(8px + 1.5vmin);
+    text-align: left;
+    position: relative;
+    height: calc(61.2% - 4vmin);
+    width: calc(100% - 75vmin);
+    padding: 2vmin;
+    overflow-x: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1em;
+    list-style-position: inside;
+    padding: 0;
+    font-weight: 500;
+    width: 100%;
+}
+
+li{
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+li li{
+    padding-top: 2vmin;
+    padding-bottom: 0vmin;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+h1{
+    font-size: 120px;
+    font-size: 18vmin;
+    font-family: 'Coda Caption', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -18px;
+    letter-spacing: -2.8vmin;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-left: 0.5vw;
+}
+
+h3{
+    margin:0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5em;
+}
+
+h4{
+    margin:0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.25em;
+}
+
+p{
+    margin: 0;
+}
