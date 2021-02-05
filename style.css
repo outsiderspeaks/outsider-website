@@ -12,7 +12,7 @@ body{
     display: flex;
     min-height: 100%;
     min-width: 100%;
-    background-image: url(/images/bg2.png);
+    background-image: url("/images/bg2.png");
     background-position: left top;
     background-attachment: fixed;
     background-size: cover;
